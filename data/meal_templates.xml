@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mealTemplates>
+  <meal>
+    <name>Nasi Gudeg</name>
+    <servings>2</servings>
+    <calories>440.0</calories>
+    <carbs>65.0</carbs>
+    <fat>12.0</fat>
+    <protein>18.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Young Jackfruit</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>150.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar</name>
+        <amount>30.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Jasmine Rice</name>
+        <amount>150.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chicken Thigh</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Rendang Daging</name>
+    <servings>4</servings>
+    <calories>595.0</calories>
+    <carbs>25.0</carbs>
+    <fat>35.0</fat>
+    <protein>45.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Beef Chuck</name>
+        <amount>500.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>400.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Shallots</name>
+        <amount>50.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Garlic</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chili Paste</name>
+        <amount>30.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Lemongrass</name>
+        <amount>2.0</amount>
+        <unit>stalks</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Gado-Gado</name>
+    <servings>2</servings>
+    <calories>362.0</calories>
+    <carbs>35.0</carbs>
+    <fat>18.0</fat>
+    <protein>15.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Mixed Vegetables</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Boiled Eggs</name>
+        <amount>2.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+      <ingredient>
+        <name>Peanuts</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tamarind Water</name>
+        <amount>30.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Rice Cake</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Soto Ayam</name>
+    <servings>3</servings>
+    <calories>252.0</calories>
+    <carbs>20.0</carbs>
+    <fat>8.0</fat>
+    <protein>25.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Chicken Breast</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Rice Vermicelli</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Bean Sprouts</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Turmeric</name>
+        <amount>5.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Ginger</name>
+        <amount>15.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chicken Broth</name>
+        <amount>500.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Nasi Liwet</name>
+    <servings>2</servings>
+    <calories>435.0</calories>
+    <carbs>55.0</carbs>
+    <fat>15.0</fat>
+    <protein>20.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Jasmine Rice</name>
+        <amount>150.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>200.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Fried Chicken</name>
+        <amount>120.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tofu</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tempeh</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Bakso</name>
+    <servings>2</servings>
+    <calories>298.0</calories>
+    <carbs>30.0</carbs>
+    <fat>10.0</fat>
+    <protein>22.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Beef Meatballs</name>
+        <amount>150.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Egg Noodles</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Bok Choy</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Beef Broth</name>
+        <amount>400.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Fried Tofu</name>
+        <amount>50.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Ayam Bakar</name>
+    <servings>2</servings>
+    <calories>352.0</calories>
+    <carbs>8.0</carbs>
+    <fat>20.0</fat>
+    <protein>35.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Chicken Thigh</name>
+        <amount>250.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Sweet Soy Sauce</name>
+        <amount>30.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Shallots</name>
+        <amount>25.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Garlic</name>
+        <amount>15.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chili</name>
+        <amount>10.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Pecel Lele</name>
+    <servings>1</servings>
+    <calories>410.0</calories>
+    <carbs>25.0</carbs>
+    <fat>22.0</fat>
+    <protein>28.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Catfish</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Peanut Sauce</name>
+        <amount>60.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Raw Vegetables</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Steamed Rice</name>
+        <amount>150.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Cooking Oil</name>
+        <amount>15.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Nasi Padang</name>
+    <servings>2</servings>
+    <calories>545.0</calories>
+    <carbs>50.0</carbs>
+    <fat>25.0</fat>
+    <protein>30.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Steamed Rice</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Beef Rendang</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Sambal Lado</name>
+        <amount>30.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Sayur Nangka</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Fried Fish</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Ikan Bakar</name>
+    <servings>2</servings>
+    <calories>315.0</calories>
+    <carbs>5.0</carbs>
+    <fat>15.0</fat>
+    <protein>40.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Snapper Fish</name>
+        <amount>300.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tamarind Paste</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chili Paste</name>
+        <amount>25.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar</name>
+        <amount>15.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Banana Leaves</name>
+        <amount>2.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Rawon</name>
+    <servings>3</servings>
+    <calories>350.0</calories>
+    <carbs>15.0</carbs>
+    <fat>18.0</fat>
+    <protein>32.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Beef Brisket</name>
+        <amount>300.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Keluak Nuts</name>
+        <amount>40.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Shallots</name>
+        <amount>30.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Galangal</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Bean Sprouts</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Bebek Betutu</name>
+    <servings>4</servings>
+    <calories>444.0</calories>
+    <carbs>10.0</carbs>
+    <fat>28.0</fat>
+    <protein>38.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Duck</name>
+        <amount>800.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Spice Paste</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Cassava Leaves</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Banana Leaves</name>
+        <amount>4.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Oil</name>
+        <amount>30.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Pepes Ikan</name>
+    <servings>2</servings>
+    <calories>280.0</calories>
+    <carbs>8.0</carbs>
+    <fat>12.0</fat>
+    <protein>35.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Mackerel Fish</name>
+        <amount>250.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Spice Paste</name>
+        <amount>50.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Basil Leaves</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Banana Leaves</name>
+        <amount>3.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>100.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Asinan Betawi</name>
+    <servings>1</servings>
+    <calories>237.0</calories>
+    <carbs>40.0</carbs>
+    <fat>5.0</fat>
+    <protein>8.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Mixed Fruits</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tofu</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Rice Cake</name>
+        <amount>80.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tamarind Water</name>
+        <amount>50.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar</name>
+        <amount>25.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Gudeg Yogya</name>
+    <servings>3</servings>
+    <calories>488.0</calories>
+    <carbs>55.0</carbs>
+    <fat>20.0</fat>
+    <protein>22.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Young Jackfruit</name>
+        <amount>300.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>250.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chicken</name>
+        <amount>150.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Boiled Eggs</name>
+        <amount>3.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar</name>
+        <amount>40.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Tahu Gejrot</name>
+    <servings>1</servings>
+    <calories>263.0</calories>
+    <carbs>20.0</carbs>
+    <fat>15.0</fat>
+    <protein>12.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Fried Tofu</name>
+        <amount>150.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Tamarind Water</name>
+        <amount>40.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Chili</name>
+        <amount>15.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Shallots</name>
+        <amount>20.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Sate Kambing</name>
+    <servings>2</servings>
+    <calories>322.0</calories>
+    <carbs>8.0</carbs>
+    <fat>18.0</fat>
+    <protein>32.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Goat Meat</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Sweet Soy Sauce</name>
+        <amount>30.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Peanut Sauce</name>
+        <amount>60.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Rice Cake</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Wooden Skewers</name>
+        <amount>10.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Opor Ayam</name>
+    <servings>3</servings>
+    <calories>382.0</calories>
+    <carbs>18.0</carbs>
+    <fat>22.0</fat>
+    <protein>28.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Chicken Pieces</name>
+        <amount>400.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>300.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Spice Paste</name>
+        <amount>60.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Lemongrass</name>
+        <amount>2.0</amount>
+        <unit>stalks</unit>
+      </ingredient>
+      <ingredient>
+        <name>Bay Leaves</name>
+        <amount>3.0</amount>
+        <unit>pieces</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+  <meal>
+    <name>Es Cendol</name>
+    <servings>1</servings>
+    <calories>268.0</calories>
+    <carbs>45.0</carbs>
+    <fat>8.0</fat>
+    <protein>4.0</protein>
+    <ingredients>
+      <ingredient>
+        <name>Cendol Noodles</name>
+        <amount>100.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Coconut Milk</name>
+        <amount>150.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Palm Sugar Syrup</name>
+        <amount>50.0</amount>
+        <unit>ml</unit>
+      </ingredient>
+      <ingredient>
+        <name>Shaved Ice</name>
+        <amount>200.0</amount>
+        <unit>g</unit>
+      </ingredient>
+      <ingredient>
+        <name>Jackfruit</name>
+        <amount>50.0</amount>
+        <unit>g</unit>
+      </ingredient>
+    </ingredients>
+  </meal>
+</mealTemplates>
