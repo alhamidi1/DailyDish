@@ -44,5 +44,3 @@ logs/
 ### User Data Files (Contains personal information) ###
 data/user_profile.xml
 data/meal_plan.xml
-data/grocery_list.xml
-data/checkbox_states.properties

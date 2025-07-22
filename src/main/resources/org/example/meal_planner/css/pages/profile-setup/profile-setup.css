@@ -1,0 +1,545 @@
+/* Import Global Styles */
+@import url("../../../css/global-styles.css");
+
+/*
+  CSS File Path: /Users/abdullah/Desktop/Test/src/resources/css/base.css
+  This file contains common styles for the entire application.
+*/
+
+/* --- Global Styles --- */
+.root {
+    -fx-font-family: "Lato";
+    -fx-background-color: #FDFDFB; /* Off-White */
+}
+
+/* --- Header Section --- */
+.header-pane {
+    -fx-padding: 10px 40px;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-color: #FDFDFB; /* Off-White */
+}
+
+.logo {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E7D32; /* Leafy Green */
+}
+
+.user-info-box {
+    -fx-spacing: 12px;
+}
+
+.avatar-circle-green {
+    -fx-fill: #2E7D32; /* Leafy Green */
+}
+
+.avatar-initials {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.user-info-box .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+
+/* --- Common Content Headings --- */
+.main-content-heading {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-padding: 0 0 10px 0;
+}
+
+.main-content-subheading {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-line-spacing: 4px;
+}
+
+/* --- Footer Section --- */
+.progress-bar-container {
+    -fx-padding: 0;
+    -fx-spacing: 3px;
+    -fx-background-color: #FDFDFB; /* Off-White */
+}
+
+.progress-segment, .progress-segment-filled {
+    -fx-pref-height: 6px;
+    -fx-background-radius: 3px;
+}
+
+.progress-segment {
+    -fx-background-color: #E0E0E0;
+}
+
+.progress-segment-filled {
+    -fx-background-color: #FFAB00; /* Turmeric Gold */
+}
+
+.footer-pane {
+    -fx-padding: 15px 40px;
+    -fx-background-color: #FDFDFB; /* Off-White */
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1px 0 0 0;
+}
+
+.back-button, .continue-button {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-graphic-text-gap: 8px;
+}
+
+.back-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+.back-button:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.back-arrow {
+    -fx-font-size: 16px;
+    -fx-fill: #333333; /* Charcoal Gray */
+}
+
+.continue-button {
+    -fx-background-color: #2E7D32; /* Leafy Green */
+    -fx-text-fill: #FDFDFB; /* Off-White */
+}
+
+.continue-button:hover {
+    -fx-background-color: #256428; /* Darker shade of Leafy Green */
+}
+
+.continue-arrow {
+    -fx-font-size: 16px;
+    -fx-fill: #FDFDFB; /* Off-White */
+}
+/*
+  CSS File Path: /Users/abdullah/Desktop/Test/src/resources/css/DietType.css
+*/
+
+.content-pane {
+    -fx-max-width: 650px;
+}
+
+/* Default style for each clickable diet row */
+.diet-option-box {
+    -fx-padding: 14px; /* Padding is 14px to prepare for the border */
+    -fx-border-color: #E0E0E0; /* A light grey border to show the box */
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+    -fx-background-color: #FDFDFB; /* Off-White */
+    -fx-spacing: 15px;
+    -fx-alignment: center-left;
+}
+
+/* This style is ADDED by the controller on click */
+.diet-option-box.selected {
+    -fx-border-color: #2E7D32; /* Leafy Green */
+    -fx-border-width: 2px; /* A thicker border when selected */
+    -fx-background-color: #E8F5E9; /* A very light green for selected background */
+    -fx-padding: 13px; /* Adjust padding to keep content aligned due to thicker border */
+}
+
+/* Styles for the text within each option (no change) */
+.diet-name-label {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+.diet-excludes-label {
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+/* Style for the note at the bottom of the page (no change) */
+.bottom-note-label {
+    -fx-padding: 20px 0 0 0;
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+.diet-list-separator {
+    -fx-padding: 5px 0; /* Add some space around separators */
+}
+
+.diet-list-separator .line {
+     -fx-border-color: #EEEEEE;
+     -fx-border-width: 1px;
+}
+
+/*
+  CSS File Path: /Users/abdullah/Desktop/Test/src/resources/css/DietWelcome.css
+*/
+
+.main-content-subheading-secondary {
+    -fx-font-family: "Lato";
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-line-spacing: 4px;
+    -fx-padding: 10px 0 0 0;
+}
+
+/*
+  CSS File Path: /Users/abdullah/Desktop/Test/src/resources/css/FoodAvoidance.css
+*/
+
+.content-vbox {
+    -fx-padding: 0 20px 0 60px; /* Add padding to account for side image */
+}
+
+/* This is the container for the toggle buttons, controlling spacing */
+.food-avoid-pane {
+    -fx-hgap: 10px; /* Horizontal gap between buttons */
+    -fx-vgap: 10px; /* Vertical gap between buttons */
+    -fx-padding: 20px 0;
+}
+
+/* This styles each individual food button */
+.food-avoid-toggle {
+    -fx-background-color: #FDFDFB; /* Off-White */
+    -fx-border-color: #BDBDBD;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px; /* This makes the buttons pill-shaped */
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-padding: 8px 20px;
+    -fx-cursor: hand;
+}
+
+/* This style is AUTOMATICALLY applied by JavaFX when a ToggleButton is selected */
+.food-avoid-toggle:selected {
+    -fx-background-color: #2E7D32; /* Leafy Green */
+    -fx-border-color: #2E7D32; /* Leafy Green */
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 20px;
+    -fx-text-fill: #FDFDFB; /* Off-White */
+    -fx-font-weight: bold;
+}
+
+/* Style for the note at the bottom of the page */
+.bottom-note-text-flow {
+    -fx-padding: 20px 0 0 0;
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+.bottom-note-text-flow .text.bold {
+    -fx-font-weight: bold;
+    -fx-fill: #333333; /* Charcoal Gray */
+}
+
+/*
+  CSS File Path: src/resources/css/ProfileSetup.css
+  Updated with the new brand style guide.
+*/
+
+/* --- Global Styles --- */
+.root {
+    -fx-font-family: "Lato"; /* Sets the default 'body' font */
+    -fx-background-color: #FDFDFB; /* The new Off-White background */
+}
+
+/* --- Header Section --- */
+.header-pane {
+    -fx-padding: 10px 40px;
+    -fx-border-color: #E0E0E0; /* Softer border */
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-color: #FDFDFB; /* Match root background */
+}
+
+.logo {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E7D32; /* Primary Color: Leafy Green */
+}
+
+.user-info-box {
+    -fx-spacing: 12px;
+}
+
+.avatar-circle {
+    -fx-fill: #2E7D32; /* Primary Color: Leafy Green */
+}
+
+.avatar-initials {
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.user-info-box .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Neutral: Charcoal Gray */
+}
+
+/* --- Center Content Section --- */
+.main-content {
+    -fx-padding: 40px 20px;
+    -fx-spacing: 20px;
+    -fx-max-width: 800px;
+    -fx-max-height: 800px;
+}
+
+.main-heading {
+    -fx-font-family: "Poppins"; /* Heading Font */
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Neutral: Charcoal Gray */
+}
+
+.sub-heading {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-line-spacing: 4px;
+}
+
+.steps-container {
+    -fx-spacing: 25px;
+    -fx-padding: 40px 0 0 0;
+}
+
+.step-box {
+    -fx-alignment: center-left;
+    -fx-spacing: 25px;
+}
+
+.step-title {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.step-description {
+    -fx-font-size: 15px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+
+.separator .line {
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1px;
+}
+
+/* --- Footer Section --- */
+.footer-pane {
+    -fx-padding: 15px 40px;
+    -fx-background-color: #FDFDFB;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1px 0 0 0;
+}
+
+.get-started-button {
+    -fx-background-color: #2E7D32; /* Primary Color: Leafy Green */
+    -fx-text-fill: #FDFDFB; /* Off-White */
+    -fx-font-family: "Lato";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 28px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.get-started-button:hover {
+    -fx-background-color: #1B5E20; /* A darker shade of green for hover */
+}
+
+/*
+  CSS File Path: /Users/abdullah/Desktop/Test/src/resources/css/UserDetails.css
+*/
+
+.content-vbox {
+    -fx-padding: 0 20px 0 40px; /* Add padding to account for side image */
+}
+
+/* --- Form GridPane Layout --- */
+.form-gridpane {
+    -fx-vgap: 12px; /* Vertical spacing between form rows */
+    -fx-padding: 20px 0 0 0;
+}
+.form-gridpane .label {
+    -fx-font-family: "Lato";
+    -fx-font-size: 15px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-padding: 8px 0 0 0; /* Align text vertically with inputs */
+}
+
+/* Minimalist style for TextFields */
+.form-gridpane .text-field {
+    -fx-font-family: "Lato";
+    -fx-font-size: 15px;
+    -fx-background-color: transparent;
+    -fx-border-color: #BDBDBD;
+    -fx-border-width: 0 0 1px 0; /* Bottom border only */
+}
+
+/* Style for the separators between rows */
+.form-gridpane .separator .line {
+    -fx-border-color: #EEEEEE;
+    -fx-border-width: 1px;
+}
+
+/* --- Segmented Toggle Button Group (e.g., for Sex, Bodyfat) --- */
+.toggle-button-group .toggle-button {
+    -fx-background-color: #FDFDFB; /* Off-White */
+    -fx-border-color: #BDBDBD;
+    -fx-border-width: 1px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-insets: 0;
+}
+/* Left button has rounded left corners */
+.toggle-button-group .toggle-button:first-child {
+    -fx-border-radius: 5px 0 0 5px;
+}
+/* Middle buttons have no rounded corners or side borders */
+.toggle-button-group .toggle-button:mid-child {
+     -fx-border-radius: 0;
+     -fx-border-width: 1px 0 1px 0;
+}
+/* Right button has rounded right corners */
+.toggle-button-group .toggle-button:last-child {
+    -fx-border-radius: 0 5px 5px 0;
+    -fx-border-width: 1px 1px 1px 0;
+}
+/* Style for the selected button */
+.toggle-button-group .toggle-button:selected {
+    -fx-background-color: #2E7D32; /* Leafy Green */
+    -fx-text-fill: #FDFDFB; /* Off-White */
+    -fx-font-weight: bold;
+}
+
+/* --- Info Icon (?) --- */
+.info-icon {
+    -fx-cursor: hand;
+}
+.info-icon-circle {
+    -fx-fill: transparent;
+    -fx-stroke: #333333; /* Charcoal Gray */
+    -fx-stroke-width: 1.5px;
+}
+.info-icon-text {
+    -fx-fill: #333333; /* Charcoal Gray */
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* --- ChoiceBox (Dropdown) --- */
+.activity-choice-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #BDBDBD;
+    -fx-border-width: 0 0 1px 0; /* Bottom border only */
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+}
+.activity-choice-box .label {
+    -fx-padding: 0;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+}
+.activity-choice-box .arrow {
+    -fx-background-color: #333333; /* Charcoal Gray */
+}
+
+/*
+  CSS File Path: /Users/abdullah/Desktop/Test/src/resources/css/UserGoals.css
+*/
+
+.content-vbox {
+    -fx-padding: 0 20px 0 40px; /* Add padding to account for side image */
+}
+
+/* --- Form GridPane Layout --- */
+.form-gridpane {
+    -fx-vgap: 20px; /* Vertical spacing between form rows */
+    -fx-padding: 20px 0 0 0;
+}
+.form-gridpane .label {
+    -fx-font-family: "Lato";
+    -fx-font-size: 15px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-padding: 8px 0 0 0; /* Align text vertically with inputs */
+}
+
+/* Minimalist style for TextFields */
+.form-gridpane .text-field {
+    -fx-font-family: "Lato";
+    -fx-font-size: 15px;
+    -fx-background-color: transparent;
+    -fx-border-color: #BDBDBD;
+    -fx-border-width: 0 0 1px 0; /* Bottom border only */
+}
+
+/* Style for the separators between rows */
+.form-gridpane .separator .line {
+    -fx-border-color: #EEEEEE;
+    -fx-border-width: 1px;
+}
+
+/* --- Segmented Toggle Button Group --- */
+.toggle-button-group .toggle-button {
+    -fx-background-color: #FDFDFB; /* Off-White */
+    -fx-border-color: #BDBDBD;
+    -fx-border-width: 1px;
+    -fx-text-fill: #333333; /* Charcoal Gray */
+    -fx-font-family: "Lato";
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-insets: 0;
+}
+/* Left button has rounded left corners */
+.toggle-button-group .toggle-button:first-child {
+    -fx-border-radius: 5px 0 0 5px;
+}
+/* Middle buttons have no rounded corners or side borders */
+.toggle-button-group .toggle-button:mid-child {
+     -fx-border-radius: 0;
+     -fx-border-width: 1px 0 1px 0;
+}
+/* Right button has rounded right corners */
+.toggle-button-group .toggle-button:last-child {
+    -fx-border-radius: 0 5px 5px 0;
+    -fx-border-width: 1px 1px 1px 0;
+}
+/* Style for the selected button */
+.toggle-button-group .toggle-button:selected {
+    -fx-background-color: #2E7D32; /* Leafy Green */
+    -fx-text-fill: #FDFDFB; /* Off-White */
+    -fx-font-weight: bold;
+}
+
+/* --- Info Icon (?) --- */
+.info-icon {
+    -fx-cursor: hand;
+}
+.info-icon-circle {
+    -fx-fill: transparent;
+    -fx-stroke: #333333; /* Charcoal Gray */
+    -fx-stroke-width: 1.5px;
+}
+.info-icon-text {
+    -fx-fill: #333333; /* Charcoal Gray */
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}

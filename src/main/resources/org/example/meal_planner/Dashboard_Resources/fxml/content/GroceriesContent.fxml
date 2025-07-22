@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!-- Content for Groceries Page (loaded via NavigationUtils) -->
+<VBox prefHeight="800.0" prefWidth="1035.0" spacing="20.0" 
+      style="-fx-background-color: #FDFDFB;" 
+      xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.meal_planner.controllers.Dashboard.GroceriesContentController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <!-- Header -->
+    <HBox alignment="CENTER_LEFT" spacing="20.0">
+        <children>
+            <Label text="🛒 Grocery List" styleClass="page-title">
+                <font>
+                    <Font name="Poppins Bold" size="28.0" />
+                </font>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Button fx:id="clearAllButton" 
+                    text="Clear All"
+                    styleClass="btn-secondary">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </Button>
+            <Button fx:id="generateFromMealsButton" 
+                    text="Generate from Meals"
+                    styleClass="btn-primary">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </Button>
+        </children>
+    </HBox>
+
+    <Label text="Ingredients from your selected meals" 
+           style="-fx-text-fill: #666666;">
+        <font>
+            <Font name="Lato Regular" size="16.0" />
+        </font>
+    </Label>
+
+    <!-- Add Item Section -->
+    <HBox alignment="CENTER_LEFT" spacing="15.0" 
+          style="-fx-background-color: #F8F9FA; -fx-padding: 15; -fx-border-radius: 8; -fx-background-radius: 8;">
+        <children>
+            <Label text="➕" style="-fx-text-fill: #2E7D32;">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+                        <TextField fx:id="addItemNameField" 
+                       promptText="Enter item name..." 
+                       prefWidth="200.0"
+                       styleClass="form-field">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </TextField>
+            <TextField fx:id="addItemAmountField" 
+                       promptText="Amount (e.g., 2.5)" 
+                       prefWidth="100.0"
+                       styleClass="form-field">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </TextField>
+            <TextField fx:id="addItemUnitField" 
+                       promptText="Unit (cups, kg, pieces)" 
+                       prefWidth="120.0"
+                       styleClass="form-field">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </TextField>
+            <Button fx:id="addItemButton" 
+                    text="Add Item"
+                    styleClass="btn-primary">
+                <font>
+                    <Font name="Lato Regular" size="12.0" />
+                </font>
+            </Button>
+        </children>
+    </HBox>
+
+    <!-- Grocery List Content -->
+    <ScrollPane fitToWidth="true" prefHeight="500.0" 
+                style="-fx-background: transparent; -fx-background-color: transparent;">
+        <content>
+            <VBox fx:id="ingredientListContainer" spacing="8.0" 
+                  style="-fx-background-color: white; -fx-border-color: #E0E0E0; -fx-border-radius: 8; -fx-background-radius: 8; -fx-padding: 20;">
+                
+                <!-- Dynamic ingredient items will be added here -->
+                <Label fx:id="emptyStateLabel" 
+                       text="No ingredients yet. Click 'Generate from Meals' to get started!" 
+                       style="-fx-text-fill: #999999; -fx-alignment: center;"
+                       visible="true">
+                    <font>
+                        <Font name="Lato Regular" size="16.0" />
+                    </font>
+                </Label>
+                
+            </VBox>
+        </content>
+    </ScrollPane>
+
+    <!-- Footer with Statistics -->
+    <HBox alignment="CENTER_LEFT" spacing="20.0" 
+          style="-fx-background-color: #F8F9FA; -fx-padding: 15; -fx-border-radius: 8; -fx-background-radius: 8;">
+        <children>
+            <Label text="📊" style="-fx-text-fill: #2E7D32;">
+                <font>
+                    <Font size="16.0" />
+                </font>
+            </Label>
+            <Label fx:id="totalItemsLabel" 
+                   text="Total Items: 0" 
+                   style="-fx-text-fill: #333333;">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </Label>
+            <Label fx:id="checkedItemsLabel" 
+                   text="Purchased: 0" 
+                   style="-fx-text-fill: #333333;">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </Label>
+            <Region HBox.hgrow="ALWAYS" />
+            <Label fx:id="progressLabel" 
+                   text="0% Complete" 
+                   style="-fx-text-fill: #2E7D32; -fx-font-weight: bold;">
+                <font>
+                    <Font name="Lato Regular" size="14.0" />
+                </font>
+            </Label>
+        </children>
+    </HBox>
+</VBox>

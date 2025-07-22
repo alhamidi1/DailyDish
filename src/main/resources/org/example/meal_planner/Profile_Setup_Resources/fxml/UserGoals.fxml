@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="rootPane" prefHeight="800.0" prefWidth="1280.0" styleClass="root" stylesheets="@../../../meal_planner/css/pages/profile-setup/profile-setup.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.meal_planner.controllers.Profile_Setup.UserGoalsController">
+   <top>
+       <HBox alignment="CENTER_LEFT" prefHeight="74.0" prefWidth="1280.0" styleClass="header-pane">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/app-logo.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="29.0" prefWidth="140.0" styleClass="logo" text="  DailyDish" textAlignment="RIGHT" />
+            <Region HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <HBox alignment="CENTER" spacing="20.0">
+         <padding>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
+         </padding>
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/hero-user-goals.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" maxWidth="650.0" styleClass="content-vbox" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label styleClass="main-content-heading" text="What's Your Goal?" />
+                  <Label styleClass="main-content-subheading" text="Your goals are our goals! We'll tailor your daily nutrition to help you get there. Semangat!" wrapText="true" />
+                  <GridPane styleClass="form-gridpane">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                     </columnConstraints>
+                     <Label text="Choose Your Path" GridPane.rowIndex="0" />
+                     <HBox alignment="CENTER_RIGHT" styleClass="toggle-button-group" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                        <children>
+                           <ToggleButton fx:id="generalGoalButton" mnemonicParsing="false" selected="true" text="General Goal">
+                              <toggleGroup>
+                                 <ToggleGroup fx:id="goalTypeToggleGroup" />
+                              </toggleGroup>
+                           </ToggleButton>
+                           <ToggleButton fx:id="exactGoalButton" mnemonicParsing="false" text="Specific Target" toggleGroup="$goalTypeToggleGroup" />
+                        </children>
+                     </HBox>
+                     <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" />
+                     
+                     <StackPane GridPane.columnSpan="2147483647" GridPane.rowIndex="2">
+                        <children>
+                           <VBox fx:id="generalGoalPane" spacing="20.0">
+                              <children>
+                                 <GridPane styleClass="form-gridpane">
+                                    <columnConstraints>
+                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                       <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" />
+                                    </columnConstraints>
+                                    <children>
+                                       <HBox alignment="CENTER_LEFT" spacing="5.0">
+                                          <children>
+                                             <Label text="I want to..." />
+                                             <StackPane styleClass="info-icon">
+                                                <children>
+                                                   <Circle radius="8.0" styleClass="info-icon-circle" />
+                                                   <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="info-icon-text" text="?" />
+                                                </children>
+                                             </StackPane>
+                                          </children>
+                                       </HBox>
+                                       <HBox alignment="CENTER_RIGHT" styleClass="toggle-button-group" GridPane.columnIndex="1">
+                                          <children>
+                                             <ToggleButton mnemonicParsing="false" text="Lose Fat">
+                                                <toggleGroup>
+                                                   <ToggleGroup fx:id="goalActionToggleGroup" />
+                                                </toggleGroup>
+                                             </ToggleButton>
+                                             <ToggleButton mnemonicParsing="false" selected="true" styleClass="toggle-button:mid-child" text="Maintain" toggleGroup="$goalActionToggleGroup" />
+                                             <ToggleButton mnemonicParsing="false" text="Build Muscle" toggleGroup="$goalActionToggleGroup" />
+                                          </children>
+                                       </HBox>
+                                    </children>
+                                    <rowConstraints>
+                                       <RowConstraints />
+                                    </rowConstraints>
+                                 </GridPane>
+                              </children>
+                           </VBox>
+                           <VBox fx:id="exactGoalPane" alignment="CENTER_LEFT" managed="false" spacing="20.0" visible="false">
+                              <children>
+                                 <GridPane styleClass="form-gridpane">
+                                    <columnConstraints>
+                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                    </columnConstraints>
+                                    <children>
+                                        <Label text="My Target Weight" />
+                                        <HBox alignment="CENTER_RIGHT" spacing="8.0" GridPane.columnIndex="1">
+                                            <children>
+                                                <TextField fx:id="weightGoalField" alignment="CENTER_RIGHT" prefWidth="80.0" />
+                                                <Label text="kg" />
+                                            </children>
+                                        </HBox>
+                                        <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" />
+                                        <Label text="Weekly Goal" GridPane.rowIndex="2" />
+                                        <HBox alignment="CENTER_RIGHT" spacing="8.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                            <children>
+                                                <TextField fx:id="weightChangeField" alignment="CENTER_RIGHT" prefWidth="80.0" />
+                                                <Label text="kg / week" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <rowConstraints>
+                                       <RowConstraints />
+                                       <RowConstraints />
+                                       <RowConstraints />
+                                    </rowConstraints>
+                                 </GridPane>
+                              </children>
+                           </VBox>
+                        </children>
+                     </StackPane>
+                     <rowConstraints>
+                        <RowConstraints />
+                        <RowConstraints />
+                        <RowConstraints />
+                     </rowConstraints>
+                  </GridPane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <bottom>
+       <VBox>
+         <children>
+            <HBox alignment="CENTER" styleClass="progress-bar-container">
+               <children>
+                  <Region styleClass="progress-segment-filled" HBox.hgrow="ALWAYS" />
+                  <Region styleClass="progress-segment-filled" HBox.hgrow="ALWAYS" />
+                  <Region styleClass="progress-segment-filled" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" styleClass="footer-pane">
+               <children>
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#onBackClicked" styleClass="back-button" text="Back">
+                     <graphic>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="back-arrow" text="&lt;" />
+                     </graphic>
+                  </Button>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Button fx:id="continueButton" mnemonicParsing="false" onAction="#onContinueClicked" styleClass="continue-button" text="Continue">
+                     <graphic>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="continue-arrow" text="&gt;" />
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
