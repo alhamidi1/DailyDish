@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.example.meal_planner.controllers.Profile_Setup.ProfileSetupData;
+import org.example.meal_planner.models.ProfileSetupData;
 import org.example.meal_planner.services.XmlDataService;
 import org.example.meal_planner.utils.ModalUtils;
 

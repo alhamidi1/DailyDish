@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import org.example.meal_planner.controllers.Profile_Setup.ProfileSetupData;
+import org.example.meal_planner.models.ProfileSetupData;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;

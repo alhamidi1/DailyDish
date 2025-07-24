@@ -1,4 +1,5 @@
 package org.example.meal_planner.controllers.Profile_Setup;
+import org.example.meal_planner.models.ProfileSetupData;
 
 public interface WizardController {
     /**

@@ -3,6 +3,7 @@ package org.example.meal_planner.controllers.Profile_Setup;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import org.example.meal_planner.models.ProfileSetupData;
 
 public class AboutYouWelcomeController implements WizardController {
 

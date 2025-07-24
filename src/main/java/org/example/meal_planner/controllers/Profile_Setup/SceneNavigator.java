@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.example.meal_planner.controllers.AppController;
+import org.example.meal_planner.models.ProfileSetupData;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

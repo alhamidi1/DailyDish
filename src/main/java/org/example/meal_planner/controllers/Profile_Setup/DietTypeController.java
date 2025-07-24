@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import org.example.meal_planner.models.ProfileSetupData;
 
 import java.net.URL;
 import java.util.ArrayList;

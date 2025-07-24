@@ -1,4 +1,4 @@
-package org.example.meal_planner.controllers.Profile_Setup;
+package org.example.meal_planner.models;
 
 import java.util.List;
 

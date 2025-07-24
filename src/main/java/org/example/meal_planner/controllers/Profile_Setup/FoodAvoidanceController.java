@@ -5,6 +5,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.FlowPane;
+import org.example.meal_planner.models.ProfileSetupData;
 
 import java.util.ArrayList;
 import java.util.List;

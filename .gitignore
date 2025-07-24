@@ -44,3 +44,4 @@ logs/
 ### User Data Files (Contains personal information) ###
 data/user_profile.xml
 data/meal_plan.xml
+CLASS_DIAGRAM.md

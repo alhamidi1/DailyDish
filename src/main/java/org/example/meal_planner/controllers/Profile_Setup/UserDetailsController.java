@@ -3,6 +3,7 @@ package org.example.meal_planner.controllers.Profile_Setup;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import org.example.meal_planner.models.ProfileSetupData;
 import org.example.meal_planner.utils.ModalUtils;
 
 import javafx.collections.FXCollections;

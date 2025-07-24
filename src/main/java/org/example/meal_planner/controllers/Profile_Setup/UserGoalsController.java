@@ -8,6 +8,7 @@ import org.example.meal_planner.models.DayMealPlan;
 import org.example.meal_planner.models.Food;
 import org.example.meal_planner.models.Ingredient;
 import org.example.meal_planner.models.Meal;
+import org.example.meal_planner.models.ProfileSetupData;
 import org.example.meal_planner.services.Ai;
 import org.example.meal_planner.services.MealPlanParser;
 import org.example.meal_planner.services.XmlDataService;
