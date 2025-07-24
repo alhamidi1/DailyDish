@@ -196,7 +196,7 @@ public class GroceriesContentController {
         }
         
         // Create and add new item
-        GroceryItem newItem = new GroceryItem(name, amount, unit, "Other");
+        GroceryItem newItem = new GroceryItem(name, amount, unit);
         groceryList.addItem(newItem);
         
         // Save and refresh

@@ -4,29 +4,27 @@ public class GroceryItem {
     private String name;
     private double amount;
     private String unit;
-    private String category;
     private boolean purchased;
     private boolean generated; // true if auto-generated from meals, false if manually added
 
     // Default constructor for XML serialization
     public GroceryItem() {}
 
-    public GroceryItem(String name, double amount, String unit, String category) {
-        this(name, amount, unit, category, false, false);
+    public GroceryItem(String name, double amount, String unit) {
+        this(name, amount, unit, false, false);
     }
 
-    public GroceryItem(String name, double amount, String unit, String category, boolean purchased, boolean generated) {
+    public GroceryItem(String name, double amount, String unit, boolean purchased, boolean generated) {
         this.name = name;
         this.amount = amount;
         this.unit = unit;
-        this.category = category;
         this.purchased = purchased;
         this.generated = generated;
     }
 
     // Static method to create from Ingredient
-    public static GroceryItem fromIngredient(Ingredient ingredient, String category) {
-        return new GroceryItem(ingredient.getName(), ingredient.getAmount(), ingredient.getUnit(), category, false, true);
+    public static GroceryItem fromIngredient(Ingredient ingredient) {
+        return new GroceryItem(ingredient.getName(), ingredient.getAmount(), ingredient.getUnit(), false, true);
     }
 
     // Getters and Setters
@@ -52,14 +50,6 @@ public class GroceryItem {
 
     public void setUnit(String unit) {
         this.unit = unit;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
     }
 
     public boolean isPurchased() {

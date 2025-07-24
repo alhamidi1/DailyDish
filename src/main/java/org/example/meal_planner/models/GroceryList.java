@@ -39,10 +39,6 @@ public class GroceryList {
         items.add(item);
     }
 
-    public void addItem(String name, double amount, String unit, String category) {
-        addItem(new GroceryItem(name, amount, unit, category));
-    }
-
     // Remove item methods
     public boolean removeItem(GroceryItem item) {
         return items.remove(item);
@@ -54,13 +50,6 @@ public class GroceryList {
             return true;
         }
         return false;
-    }
-
-    // Get items by category
-    public List<GroceryItem> getItemsByCategory(String category) {
-        return items.stream()
-                .filter(item -> category.equalsIgnoreCase(item.getCategory()))
-                .toList();
     }
 
     // Clear methods
