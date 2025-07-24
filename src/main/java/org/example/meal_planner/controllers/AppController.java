@@ -50,20 +50,15 @@ public class AppController {
         File userProfileFile = new File(USER_PROFILE_PATH);
         File mealPlanFile = new File(MEAL_PLAN_PATH);
         
-        // Check if files exist
-        if (!userProfileFile.exists() || !mealPlanFile.exists()) {
-            return true;
-        }
+
         
         // Check if files are empty or contain minimal data
         try {
-            // If files are very small, they likely don't contain complete data
-            if (userProfileFile.length() < 100 || mealPlanFile.length() < 100) {
+            // Check if files exist
+            if (!userProfileFile.exists() && !mealPlanFile.exists()) {
                 return true;
             }
             
-            // Additional check: try to read profile data
-            // If it fails or is incomplete, treat as first-time user
             return !hasCompleteProfileData();
             
         } catch (Exception e) {
